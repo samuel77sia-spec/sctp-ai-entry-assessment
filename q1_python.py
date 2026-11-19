@@ -16,7 +16,7 @@ def convertTemp(value, unit):
     if unit == "C":
         result = (value * 9/5) + 32
        return round(result, 2)
-    elif unit == "F"
+    elif unit == "F":
         result = (value - 32) * 5/9
         return round(result, 2)
     else:
